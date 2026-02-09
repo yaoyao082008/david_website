@@ -3,11 +3,25 @@
 {% block title %} AstraCore {% endblock %}
 
 {% block body %}
-<div class="container-xxl py-10" style="background: linear-gradient(180deg, #ffffff 30%, #aabdd1 100%);">
-    <div class="text-center py-2">
-        <img src="{% static 'testImg.png' %}" alt="">
+
+
+<!--justify for x-axis align for y-axis-->
+
+<div class="container-xxl" style="background: linear-gradient(180deg, #ffffff 30%, #aabdd1 100%);">
+
+    <div class="container position-relative" 
+    style="width: 100%; height: 70vh;">
+
+
+    <div class="position-absolute top-50 start-50 translate-middle text-center" >
+        <p class="display-1 primary py-2">ASTRACORE</p>
+        <p class="display-6 accent"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus!</p>
+
     </div>
-    <div class="container py-2">
+
+    </div>
+
+    <div class="container py-2 d-flex align-items-center justify-content-center" >
         <div class="row text-center">
             <div class="col-sm">
                 <p class="h3">Real Estate</p>
