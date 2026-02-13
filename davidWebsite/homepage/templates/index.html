@@ -6,33 +6,74 @@
 
 
 <!--justify for x-axis align for y-axis-->
+<!--control shift r to hard refresh css styles-->
 
-<div class="container-xxl" style="background: linear-gradient(180deg, #ffffff 30%, #aabdd1 100%);">
-
-    <div class="container position-relative" 
-    style="width: 100%; height: 70vh;">
+<div class="container-xxl d-flex justify-content-center align-items-center" style="min-height: 70vh; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/static/greetImg.jpg'); background-size: cover;background-position: center center;background-repeat: no-repeat;">
 
 
-    <div class="position-absolute top-50 start-50 translate-middle text-center" >
-        <p class="display-1 primary py-2">ASTRACORE</p>
+    <div class="text-center" >
+        <p class="display-1 text-white py-2 attention">ASTRACORE</p>
         <p class="display-6 accent"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus!</p>
+        <p class="lead text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus!</p> 
 
     </div>
 
-    </div>
-
-    <div class="container py-2 d-flex align-items-center justify-content-center" >
-        <div class="row text-center">
-            <div class="col-sm">
-                <p class="h3">Real Estate</p>
-            </div>
-            <div class="col-sm">
-                <p class="h3">Real Estate</p>
-            </div>
-            <div class="col-sm">
-                <p class="h3">Real Estate</p>
-            </div>
+</div>
+<div class="container-xxl py-3 d-flex align-items-center" style="background: white; min-height: 50vh;">
+    
+    <div class="row align-items-center">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 text-start">
+            <p class="h3 primary" style="font-family: 'Courier New', Courier, monospace;">
+                At Astracore we aim to help Fed Ex supervisors and delivery drivers optimize their path to maxmimize <em>earnings</em> and <em>reports</em>.
+            </p>
         </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <img src="{% static 'optimal.jpg' %}" alt="optimal image" class="img-fluid">
+        </div>
+    </div>
+
+</div>
+<div class="container-xxl py-3 d-flex justify-content-center" style="background: linear-gradient(180deg, #ffffff 30%, #aabdd1 100%); min-height: 60vh;" >
+    <div class="row text-center" style="min-width:70%;">
+        <div class="col-md-3">
+            <img  class="img-fluid py-1" src="{% static 'aboutUsImage.jpg' %}" alt="">
+            <p class="h3 primary attention py-2">
+                Real Estate
+            </p>
+            <p class="text-center lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos debitis quia fugiat aliquam autem. Quaerat, quo dignissimos? Animi, incidunt?
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img  class="img-fluid py-1" src="{% static 'aboutUsImage.jpg' %}" alt="">
+            <p class="h3 primary attention py-2">
+                Logistics
+            </p>
+            <p class="text-center lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos debitis quia fugiat aliquam autem. Quaerat, quo dignissimos? Animi, incidunt?
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img  class="img-fluid py-1" src="{% static 'aboutUsImage.jpg' %}" alt="">
+            <p class="h3 primary attention py-2">
+                Financial Service
+            </p>
+            <p class="text-center lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos debitis quia fugiat aliquam autem. Quaerat, quo dignissimos? Animi, incidunt?
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img  class="img-fluid py-1" src="{% static 'aboutUsImage.jpg' %}" alt="">
+            <p class="h3 primary attention py-2">
+                Consulting
+            </p>
+            <p class="text-center lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos debitis quia fugiat aliquam autem. Quaerat, quo dignissimos? Animi, incidunt?
+            </p>
+        </div>
+
     </div>
 </div>
 {% endblock %}

@@ -1,5 +1,5 @@
 .primary{
-    color: #000B33 !important;
+    color: #042c62 !important;
 }
 
 .background-primary{
@@ -15,4 +15,8 @@
 
 .deepContrast{
     color: #041E42 !important;
+}
+
+.attention{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
