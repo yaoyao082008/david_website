@@ -12,9 +12,10 @@
 
 
     <div class="text-center" >
-        <p class="display-1 text-white py-2 attention">ASTRACORE</p>
+        <p class="text-white py-2 attention display-2"><span class="display-1">A</span>STRA<span class="display-1">C</span>ORE </p>
         <p class="display-6 accent"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus!</p>
         <p class="lead text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus!</p> 
+        <button type="button" class="btn btn-info btn-lg m-2">CONSULT WITH US</button>
 
     </div>
 
@@ -35,7 +36,7 @@
     </div>
 
 </div>
-<div class="container-xxl py-3 d-flex justify-content-center" style="background: linear-gradient(180deg, #ffffff 30%, #aabdd1 100%); min-height: 60vh;" >
+<div class="container-xxl pt-3 d-flex justify-content-center" style="background: white; min-height: 60vh;" >
     <div class="row text-center" style="min-width:70%;">
         <div class="col-md-3">
             <img  class="img-fluid py-1" src="{% static 'aboutUsImage.jpg' %}" alt="">
@@ -75,5 +76,49 @@
         </div>
 
     </div>
+</div>
+<div class="container-xxl d-flex flex-column align-items-center" style="min-height: 70vh; background: linear-gradient(180deg, #ffffff 30%, #aabdd1 100%);">
+    <div>
+        <h2 class="attention display-3">
+        CONTACT US
+        </h2>
+    </div>
+    
+    <div class="row py-5 text-center" style="min-width: 70%;">
+        <div class="col-md-5" style="background-color: #041E42; color: white;" >
+            <div class="py-2">
+                <h2 class="attention">OUR INFORMATION</h2>
+                <p class="attention h5">
+                    Email: xyz@gmail.com
+                </p>
+                <p class="attention h5">
+                    phone: (904)-501-7140
+                </p>
+                <p class="attention h5">
+                    Instagram: XXX
+                </p>
+            </div>
+            
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5" style="background-color: #041E42; color: white;">
+            <div class="py-2">
+                <h2 class="attention">
+                    CONSULT WITH US
+                </h2>
+
+                <p class="h5">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Et eveniet, vero doloribus reprehenderit sed voluptate?
+                </p>
+
+                <button type="button" class="btn btn-light btn-lg">Consult Now</button>
+            </div>
+            
+        </div>
+    </div>
+
+    
 </div>
 {% endblock %}
